@@ -154,7 +154,8 @@ namespace VisualUnlockECU
             this.Controls.Add(this.groupBox2);
             this.Controls.Add(this.groupBox1);
             this.Controls.Add(this.dgvMain);
-            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
+            //this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
+            this.Icon = null;
             this.Name = "MainForm";
             this.Text = "UnlockECU";
             this.Load += new System.EventHandler(this.MainForm_Load);
